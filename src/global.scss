@@ -1,0 +1,22 @@
+$mainColor: #15023a;
+$secondaryColor: #1DB954;
+$tertiaryColor: #EFC518;
+$cuatColor: #F80332;
+$fifthColor: cyan;
+$sixthColor: #ab12f1;
+$seventhColor: #f76904;
+$eigthColor: #1C7678;
+$ninthColor: #ff5ccd;
+
+
+
+$textColor1: #eae6ca;
+$textColor2: #DC143C;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
